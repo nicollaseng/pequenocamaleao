@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+>
     <item android:drawable="@color/primary"/>
-    <item 
-        android:width="100dp"
-        android:height="100dp"
-        android:gravity="center" 
-        android:drawable="@drawable/icon"
-      />
+       <item> 
+        <bitmap
+         android:gravity="center"
+         android:src="@drawable/icon"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"/> 
+    </item> 
 </layer-list>
